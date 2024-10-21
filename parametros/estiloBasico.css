@@ -1,0 +1,16 @@
+body{
+    background-color: hsl(240, 68%, 65%);
+}
+
+.container{
+    background-color: hsl(0, 68%, 65%);
+    color: hsl(120, 68%, 65%);
+    width: 500px 30%;
+    height: 30%;
+    display: flex;
+
+    align-content: center;
+
+    padding: 10%;
+    border:3px solid hsl(120, 68%, 65%);
+}
