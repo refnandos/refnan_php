@@ -1,16 +1,29 @@
 body{
-    background-color: hsl(240, 68%, 65%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 100px;
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    justify-self: center;
+    align-self: center;
 }
 
 .container{
-    background-color: hsl(0, 68%, 65%);
-    color: hsl(120, 68%, 65%);
-    width: 500px 30%;
-    height: 30%;
+    background-color: azure;
+    min-width: 300px;
+    max-width: 600px;
+    height: 10%;
     display: flex;
-
-    align-content: center;
-
-    padding: 10%;
-    border:3px solid hsl(120, 68%, 65%);
+    justify-content: center;
+    padding: 10px ;
+    text-wrap: wrap;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
